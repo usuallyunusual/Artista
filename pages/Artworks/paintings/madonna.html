@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="..\..\..\Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="..\girl.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="..\..\..\NavButtons\Login\Login.html">LOGIN</a>
+		<a id="links" href="..\..\..\NavButtons\Login\Signup\signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\..\..\Images\logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<li><a href="Home.html">HOME</a></li>
+			<li><a href="artworks.html">ARTWORKS</a></li>
+			<li><a href="artists.html">ARTISTS</a></li>
+			<li><a href="exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="shops.html">SHOPS</a></li>
+			<li><a href="about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+<center>
+<div class="content">
+<div class="picture">
+<img src="..\..\..\Images\davinci\madonna.jpg">
+</div>
+<div class="disc">
+<div class="disp">
+<p>Name: <b>MADONNA IN THE WOODS</b></p>
+<p>Artist: <a href="..\..\artists\painters\davinci.html"><b>Leonardo da vinci</b></a></p>
+<p>Discription:A Madonna (Italian: [maˈdɔnna]) is a representation of Mary, either alone or with her child Jesus. These ..\..\..\Images are central icons for both the 
+Catholic and Orthodox churches.[1] The word is from Italian ma donna, meaning 'my lady'. The Madonna and Child type is very prevalent in Christian 
+iconography, divided into many traditional subtypes especially in Eastern Orthodox iconography, often known after the location of a notable icon of the type, 
+such as the Theotokos of Vladimir, Agiosoritissa, Blachernitissa, etc., or descriptive of the depicted posture, as in Hodegetria, Eleusa, etc. 
+ <a href="https://en.wikipedia.org/wiki/Madonna_(art)">read more.</a></p>
+<p>Dimensions:36sin×27.8in91cm×70.5cm</p>
+<p>Price:£59million</p>
+</div>
+<button href="">BID NOW</button>
+</div>
+</div>
+</center>
+<footer>
+<ul class="footernav" >
+<li><a href="..\..\..\NavButtons\contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="..\..\..\Images\facebook.png" href="www.facebook.com" >
+<img src="..\..\..\Images\instagram.png" href="www.instagram.com" >
+<img src="..\..\..\Images\twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+</body>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+</html>

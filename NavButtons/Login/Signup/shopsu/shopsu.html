@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="shopsu.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+
+<div id="navbar">
+  <div id="header1">
+    <a id ="links" href="..\..\Login.html">LOGIN</a>
+    <a id="links" href ="..\signup.html">SIGNUP</a>
+  </div>
+  <div id="header2">
+    <div class="logo">
+      <img src="Artistalogo.png"/>
+    </div>
+    <div class="main-nav"><ul>
+      <li><a href="..\..\..\Home.html">HOME</a></li>
+      <li><a href="..\..\..\artworks.html">ARTWORKS</a></li>
+      <li><a href="..\..\..\artists.html">ARTISTS</a></li>
+      <li><a href="..\..\..\exhibitions.html">EXHIBITIONS</a></li>
+      <li><a href="..\..\..\shops.html">SHOPS</a></li>
+      <li><a href="..\..\..\about.html">ABOUT</a></li> 
+    </ul>
+    </div>
+  </div>
+</div>
+</head>
+<body>
+<form action="shopsign.php" method="post">
+  <div class="container">
+     <div class="imgcontainer">
+      <img src="shop.jpg" alt="Avatar" class="avatar">
+      <div class="overlay overlayFade">
+    <div class="text">Click to upload Image</div>
+    </div>
+  </div>
+    <h1>We're excited to sell your stuff</h1><br>
+    <p>Please fill in this form to create an account</p>
+    <hr /noshade>
+
+    <label for="name"><b>Name</b></label><br>
+    <input type="text" placeholder="What's your shop called?" name="name" required><br>
+
+    <label for="about"><b>Bio</b></label><br>
+    <input type="text" placeholder="Tell us a little more about your shop" name="about" required><br>
+
+    <label for="address"><b>Address</b></label><br>
+    <input type="text" placeholder="Tell us where your shop is" name="address" required><br>
+
+    <label for="type"><b>What kind of art do you sell?</b></label><br><br><br>
+    <input type="radio" name="type" value="1" required> Paintings<br>
+    <input type="radio" name="type" value="2" required>Photographs<br>
+    <input type="radio" name="type" value="3" required>Sculptures<br><br><br>
+
+     <label for="contact"><b>Contact details:</b></label><br>
+    <input type="text" pattern="^[7-9]{2}[0-9]{8}" placeholder="How do we reach out to you?" name="contact" required><br>
+    
+    <label for="email"><b>Email</b></label><br>
+    <input type="email" placeholder="Enter Email" name="email" required><br>
+
+    <label for="pass"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="pass" required><br>
+    <hr>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="..\..\Login.html">Log in</a>.</p>
+  </div>
+</form>
+<footer>
+<ul class="footernav" >
+  <li><a href="..\contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="facebook.png" href="www.facebook.com" >
+<img src="instagram.png" href="www.instagram.com" >
+<img src="twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+</body>
+</html>

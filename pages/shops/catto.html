@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="catto.css" rel="stylesheet" type="text/css">
+<link href="../../Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="..\..\NavButtons\Login\Login.html">LOGIN</a>
+		<a id="links" href="..\..\NavButtons\Login\Signup\signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\..\Images\logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<li><a href="..\..\NavButtons\Home.html">HOME</a></li>
+			<li><a href="..\..\NavButtons\artworks.html">ARTWORKS</a></li>
+			<li><a href="..\..\NavButtons\artists.html">ARTISTS</a></li>
+			<li><a href="..\..\NavButtons\exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="..\..\NavButtons\shops.html">SHOPS</a></li>
+			<li><a href="..\..\NavButtons\about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+<center>
+	<div class="content" style="height:1200px">
+		<div id="Bio">
+		<img src="..\..\Images\shops\catto\catto.jpg" id="profile_pic" alt=""> 
+		<h2 id="user">CATTO ART GALLERY</h2> 
+		<h2><p id="Headings">Bio</p></h2> 
+		<p id="discp">Established in 1986, Catto Gallery has grown to become one of the most prestigious fine art galleries in London, specialising in the best of contemporary art across all mediums. Taken over in 2009 by Iain Barratt and Imogen Green, having between them over 30 years experience as art dealers and art consultants.  The gallery hosts around 12 solo and joint exhibitions a year.
+		</p>
+		<h2><p id="Headings">Location</p></h2> 
+		<p><div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4961.090551831901!2d-0.1737423333129882!3d51.55823672957929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a324973495293f3!2sCatto+Gallery+Ltd!5e0!3m2!1sen!2suk!4v1455642193570" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></div></p>
+		<h2><p id="Headings">How to reach</p></h2>
+		
+		<p id="discp"><b>By Car:</b>Parking is controlled in Hampstead between the hours of 9am – 8pm Monday to Saturday.  It is however free on Sunday.If you are coming by car and would like to park nearby then please ring us from your car (the best place to stop is at the top of New End – the road right next to the gallery) and someone will run out with a parking permit for you to use in the nearby streets.</p>
+		<p id="discp"><b>By tube:</b>We are 2 minutes walk from Hampstead underground station on the Edgeware branch of the Northern line.  Just come out of the tube and turn right and keep walking up the hill.  You will soon see us on your right.</p>
+		<p id="discp"><b>By train:</b>Hampstead Heath overground station is a lovely 15 minute walk from the gallery.  Just exit the station, turn right and keep walking up the hill with the Heath on your right hand side.After a few minutes you will come to a fork in the road.  Take the left hand road – Willow Road and continue straight on up the hill.  You will pass number 2 Willow Road – former home of notorious modernist architect and Bond villain Erno Goldfinger.</p>
+</div>
+</div>
+</center>
+<footer >
+<ul class="footernav" >
+<li><a href="contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="Images\facebook.png" href="www.facebook.com" >
+<img src="Images\instagram.png" href="www.instagram.com" >
+<img src="Images\twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+</body>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+</html>

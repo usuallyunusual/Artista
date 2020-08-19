@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="catto.css" rel="stylesheet" type="text/css">
+<link href="..\..\Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="..\..\NavButtons\Login\Login.html">LOGIN</a>
+		<a id="links" href="..\..\NavButtons\Login\Signup\signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\..\Images\logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<li><a href="..\..\Navbuttons\Home.html">HOME</a></li>
+			<li><a href="..\..\Navbuttons\artworks.html">ARTWORKS</a></li>
+			<li><a href="..\..\Navbuttons\artists.html">ARTISTS</a></li>
+			<li><a href="..\..\Navbuttons\exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="..\..\Navbuttons\shops.html">SHOPS</a></li>
+			<li><a href="..\..\Navbuttons\about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+<center>
+	<div class="content" style="height:1200px">
+		<div id="Bio">
+		<img src="..\..\Images\shops\cassart\casslogo.jpg" id="profile_pic" alt=""> 
+		<h2 id="user">CASS GALLERY</h2> 
+		<h2><p id="Headings">Bio</p></h2> 
+		<p id="discp">Looking for art supplies? We're a leading independent retailer of art tools for creative people. Whether you're 3 or 103, we have the finest UK art supplies online.</p>
+		<p> The Company: Cass Art is an art supplies retailer which currently has twelve shops throughout the UK as well as a fully transactional website which ships to customers nationally.</p>
+		<p> We believe in creative activities for all, aged between 3 and 103. We are dedicated to promoting these activities for the benefit of everyone. Cass Art has a loyal and extensive customer base: Professional Artists, Designers, Students, Families, Hobbyists and Beginners. All are attracted to our comprehensive range of materials, the brands passion in promoting creativity as well as our knowledgeable staff, many of whom are artists themselves.</p>
+		
+		
+		<h2><p id="Headings">Artworks</p></h2>
+		<div class="container">
+			<img src="..\..\Images\shops\cassart\cass1.jpg" alt="img" class="image">
+		<div class="overlay overlayFade">
+		<a href=""><div class="text2"> The store</div> </a>
+		</div>
+		</div>
+		<div class="container">
+			<img src="..\..\Images\shops\cassart\cass2.jpg" alt="img" class="image">
+		<div class="overlay overlayFade">
+		<a href=""><div class="text2"> Fun stuff</div></a>
+		</div>
+		</div>
+		<div class="container">
+			<img src="..\..\Images\shops\cassart\cass3.jpg" alt="img" class="image">
+		<div class="overlay overlayFade">
+		<a href=""><div class="text2"> Stationary </div></a>
+		</div>
+		</div>
+		<div class="container">
+			<img src="..\..\Images\shops\cassart\cass4.jpg" alt="img" class="image">
+		<div class="overlay overlayFade">
+		<a href=""><div class="text2"> Doodles</div> </a>
+		</div>
+		</div>
+		
+		<h2><p id="Headings">Want to contact us?</p></h2> 
+		<a href="https://www.cassart.co.uk/"> www.cassart.co.uk </a>
+</div>
+</center>
+<footer>
+<ul class="footernav" >
+<li><a href="contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<a href="https://www.facebook.com"> <img src="..\..\Images\facebook.png" ></a>
+<a href="https://www.instagram.com"> <img src="..\..\Images\instagram.png" ></a>
+<a href="https://www.twitter.com" ><img src="..\..\Images\twitter.png"></a>
+</div>
+</footer>
+</body>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+</html>

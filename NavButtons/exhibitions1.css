@@ -1,0 +1,40 @@
+.fair{
+	width:80%;
+	border-style:solid;
+	border-color:black;
+	margin-top:30px;
+}
+.fair:hover
+{
+	transform: scale(1.05);
+	
+}
+.icon1{
+	display: inline-block;
+}
+.fair img{
+	margin-left :30px;
+	height: 100px;
+	width:100px;
+}
+.name
+{
+	padding-left: 60px;
+	display: inline-block;
+	bottom: 40px;
+	position: relative;
+	color:blue;
+}
+.details{
+	margin-top: 20px;
+	padding-left: 30px;
+	display: inline-block;
+	position: relative;
+	bottom: 40px;
+	color:black;
+	
+}
+footer
+{
+	margin-top:900px;
+}

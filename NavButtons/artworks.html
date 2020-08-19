@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="arts-paintings.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="Login\Login.html">LOGIN</a>
+		<a id="links" href="Login\Signup\signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\Images\logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<li><a href="Home.html">HOME</a></li>
+			<li><a href="artworks.html">ARTWORKS</a></li>
+			<li><a href="artists.html">ARTISTS</a></li>
+			<li><a href="exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="shops.html">SHOPS</a></li>
+			<li><a href="about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+
+<div class="mainpage">
+<center>
+	<div id="snav" class="sidenav">
+	<a href="artworks.html" id="paintings">Paintings</a>
+	<a href="photos.html" id="photographs">Photos </a>
+	<a href="sculptures.html" id="sculptures">Sculptures</a>
+</div>
+<div class="content">
+<h2>ABSTRACT</h2>
+<hr noshade/>
+<div class="container">
+<img  src="..\Images\artworks\paintings\1.jpg" alt="img" class="image">
+<div class="overlay overlayFade">
+<a href=""><div class="text2">Later that day
+</div></a>
+</div>
+</div>
+<div class="container">
+<img  src="..\Images\artworks\paintings\2.jpg" alt="img" class="image">
+<div class="overlay overlayFade">
+<a href="girl.html"><div class="text2"> Moonage daydream
+</div></a>
+</div>
+</div>
+<div class="container">
+<img  src="..\Images\artworks\paintings\3.jpg" alt="img" class="image">
+<div class="overlay overlayFade">
+<a href=""><div class="text2"> Stripes
+</div></a>
+</div>
+</div>
+<div class="container">
+	<img  src="..\Images\artworks\paintings\4.jpg" alt="img" class="image">
+	<div class="overlay overlayFade">
+		<a href=""><div class="text2"> From point
+		</div></a>
+</div>
+</div>
+<h2>LANDSCAPE</h2>
+<hr noshade/>
+<div class="container">
+	<img src="..\Images\artworks\paintings\l1.jpg" alt="img" class="image">
+	<div class="overlay overlayFade">
+		<div class="text2">Statelab morning</div>
+	</div>
+</div>
+<div class="container">
+	<img src="..\Images\artworks\paintings\l2.jpg" alt="img" class="image">
+    <div class="overlay overlayFade">
+	<div class="text2">Orchard hill street </div>
+	</div>
+</div>	
+<div class="container">
+	<img src="..\Images\artworks\paintings\l3.jpg" alt="img" class="image">
+	<div class="overlay overlayFade">
+		<div class="text2"> Stoney Brook Valley</div>
+    </div>
+</div>
+<div class="container">
+	<img src="..\Images\artworks\paintings\l4.jpg" alt="img" class="image">
+	<div class="overlay overlayFade">
+		<div class="text2">27 Broad street</div>
+	</div>
+</div>
+<h2>PORTRAIT</h2>
+<hr noshade/>
+<div class="container">
+<img  src="..\Images\artworks\paintings\p1.jpg" alt="img" class="image">
+<div class="overlay overlayFade">
+<a href=""><div class="text2">Patrick Blue
+</div></a>
+</div>
+</div>
+<div class="container">
+<img  src="..\Images\artworks\paintings\p2.jpg" alt="img" class="image">
+<div class="overlay overlayFade">
+<a href="girl.html"><div class="text2">Anonymous
+</div></a>
+</div>
+</div>
+<div class="container">
+<img  src="..\Images\artworks\paintings\p3.jpg" alt="img" class="image">
+<div class="overlay overlayFade">
+<a href=""><div class="text2"> Teddy riot
+</div></a>
+</div>
+</div>
+<div class="container">
+	<img  src="..\Images\artworks\paintings\p4.jpg" alt="img" class="image">
+	<div class="overlay overlayFade">
+		<a href=""><div class="text2"> Liz
+		</div></a>
+</div>
+</div>
+</div>
+</center>
+</div>
+<footer>
+<ul class="footernav" >
+<li><a href="contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="..\Images\facebook.png" href="www.facebook.com" >
+<img src="..\Images\instagram.png" href="www.instagram.com" >
+<img src="..\Images\twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+
+</html>

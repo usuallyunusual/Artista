@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../../../Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="../Picasso.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="..\..\..\NavButtons\Login\Login.html">LOGIN</a>
+		<a id="links" href="..\..\..\NavButtons\Login\Signup\signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\..\..\Images\logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<li><a href="..\..\..\NavButtons\Home.html">HOME</a></li>
+			<li><a href="..\..\..\NavButtons\artworks.html">ARTWORKS</a></li>
+			<li><a href="..\..\..\NavButtons\artists.html">ARTISTS</a></li>
+			<li><a href="..\..\..\NavButtons\exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="..\..\..\NavButtons\shops.html">SHOPS</a></li>
+			<li><a href="..\..\..\NavButtons\about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+<center>
+<div class="content">
+<div id="Bio">
+
+<img src="..\..\..\Images\dali\dali.jpg" id="profile_pic" alt="">   
+        <h3 id="user">SALVADOR DALI</h3>
+		
+    <h3><p id="Headings">Bio</p></h3>
+    <p id="discp">RSalvador Domingo Felipe Jacinto Dalí i Domènech, 1st Marquis of Dalí de Púbol (11 May 1904 – 23 January 1989), known professionally as Salvador Dalí , was a prominent Spanish surrealist born in Figueres, Catalonia, Spain.Dalí was a skilled draftsman, best known for the striking and bizarre ..\..\..\Images in his surrealist work. His painterly skills are often attributed to the influence of Renaissance masters. His best-known work, The Persistence of Memory, was completed in August 1931. Dalí's expansive artistic repertoire included film, sculpture, and photography, at times in collaboration with a range of artists in a variety of media.
+	</p>
+    <h3><p id="Headings">Artworks</p></h3>
+    <div class="container">
+        <img  src="..\..\..\Images\dali\memory.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\memory.html">
+		        <div class="text">
+			    The Persistence of Memory
+			    </div>
+		    </a>
+        </div>
+    </div>
+    <div class="container">
+        <img  src="..\..\..\Images\dali\temptation.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\temptation.html">
+		        <div class="text">
+			    The Temptation of St.Anthony
+			    </div>
+		    </a>
+        </div>
+    </div>
+    <div class="container">
+        <img  src="..\..\..\Images\dali\giraffe.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\giraffe.html">
+			    <div class="text">
+				The Burning Giraffe
+				</div>
+			</a>
+        </div>
+    </div>
+    <div class="container">
+        <img  src="..\..\..\Images\dali\war.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\war.html"> 
+		        <div class="text">
+			    The Face of War
+                </div>
+			</a>
+        </div>
+	</div>
+<h3><p id="Headings">Contact</p></h3>
+<p id="discp">Unfortunately, he's dead.</p>
+</div>
+</div>
+</center>
+<footer>
+<ul class="footernav" >
+<li><a href="..\..\..\NavButtons\contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="..\..\..\Images\facebook.png" href="www.facebook.com" >
+<img src="..\..\..\Images\instagram.png" href="www.instagram.com" >
+<img src="..\..\..\Images\twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+</body>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+</html>

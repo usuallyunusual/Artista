@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="..\..\..\Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="..\girl.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="..\..\..\NavButtons\Login\Login.html">LOGIN</a>
+		<a id="links" href="..\..\..\NavButtons\Login\Signup\signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\..\..\Images\logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<<li><a href="..\..\..\NavButtons\Home.html">HOME</a></li>
+			<li><a href="..\..\..\NavButtons\artworks.html">ARTWORKS</a></li>
+			<li><a href="..\..\..\NavButtons\artists.html">ARTISTS</a></li>
+			<li><a href="..\..\..\NavButtons\exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="..\..\..\NavButtons\shops.html">SHOPS</a></li>
+			<li><a href="..\..\..\NavButtons\about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+<center>
+<div class="content">
+<div class="picture">
+<img src="../../../Images/dali/temptation.jpg">
+</div>
+<div class="disc">
+<div class="disp">
+<p>Name: <b>THE TEMPTATION OF ST. ANTHONY</b></p>
+<p>Artist: <a href="..\..\artists\painters\dali.html"><b>Salvador Dali</b></a></p>
+<p>Discription:  The Temptation of St. Anthony is a painting by Spanish surrealist artist Salvador Dalí. Painted in 1946, it is a precursor to the body of Dalí's work commonly known as the "classical period" or the "Dalí Renaissance".
+<a href="https://www.bing.com/search?q=the+temptation+of+st.+anthony+painting+by+salvador+dali&qs=n&form=QBRE&sp=-1&pq=the+temptation+of+st.+anthony+painting+by+salvador+dali&sc=0-55&sk=&cvid=02958D6320CA4FB5B10360B36CBC3792">read more.</a></p>
+<p>Dimensions:89.7x119.5 cm </p>
+<p>Price: $38million</p>
+</div>
+<button href="">BID NOW</button>
+</div>
+</div>
+</center>
+<footer>
+<ul class="footernav" >
+<li><a href="..\..\..\NavButtons\contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="Images\facebook.png" href="www.facebook.com" >
+<img src="Images\instagram.png" href="www.instagram.com" >
+<img src="Images\twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+</body>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+</html>

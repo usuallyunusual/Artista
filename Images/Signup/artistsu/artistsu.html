@@ -1,0 +1,74 @@
+
+<html>
+<body>
+  <head>
+<title> ARTISTA </title>
+<link href="artistsu.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<div class="header2">
+<div id="navbar">
+<a id ="links" href="#">LOGIN</a>
+<a id="links" href "#">SIGNUP</a>
+</div>
+</div>
+<div class="header1">
+<div class="row">
+<div class="logo">
+<img src="Artistalogo.png"/>
+</div>
+<ul class="main-nav" alt="logo">
+<li><a href="Home.html">HOME</a></li>
+<li><a href="">ARTWORKS</a></li>
+<li><a href="">ARTISTS</a></li>
+<li><a href="">EXHIBITIONS</a></li>
+<li><a href="">BLOGSPOT</a></li>
+<li><a href="">ABOUT</a></li> 
+</ul>
+</div>
+</div>
+<form action="artistsign.php" method="post">
+  <div class="container">
+     <div class="imgcontainer">
+      <img src="picasso.jpg" alt="Avatar" class="avatar">
+      <div class="overlay overlayFade">
+    <div class="text">Click to upload Image</div>
+    </div>
+  </div>
+    <h1>We're excited to get to know you!</h1><br>
+    <p>Please fill in this form to create an account</p>
+    <hr /noshade>
+
+    <label for="name"><b>Name</b></label><br>
+    <input type="text" placeholder="What do people call you?" name="name" required><br>
+
+    <label for="about"><b>Bio</b></label><br>
+    <input type="text" placeholder="Tell us a little more about yourself." name="about" required><br>
+
+    <label for="type"><b>What kind of art do you create?</b></label><br><br><br>
+    <input type="Checkbox" name="type" value="1" required> I Create magic on the canvas<br>
+    <input type="Checkbox" name="type" value="2" required>I Stop time behind the lens<br>
+    <input type="Checkbox" name="type" value="3" required>I mould pure creativity<br><br><br>
+
+     <label for="contact"><b>Contact details:</b></label><br>
+    <input type="text" placeholder="How do we reach out to you?" name="contact" required><br>
+    
+    <label for="email"><b>Email</b></label><br>
+    <input type="text" placeholder="Enter Email" name="email" required><br>
+
+    <label for="pass"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="pass" required><br>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label><br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <hr>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="C:\Users\vigne\Documents\Project\Login\login.html">Log in</a>.</p>
+  </div>
+</form>
+</body>
+</html>

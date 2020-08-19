@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="signup.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="..\Login.html">LOGIN</a>
+		<a id="links" href="signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\..\..\Images/logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<li><a href="..\..\Home.html">HOME</a></li>
+			<li><a href="..\..\artworks.html">ARTWORKS</a></li>
+			<li><a href="..\..\artists.html">ARTISTS</a></li>
+			<li><a href="..\..\exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="..\..\shops.html">SHOPS</a></li>
+			<li><a href="..\..\about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+<h2> Welcome to Artista! We'd love to know more about you!</h2>
+		<hr noshade/>
+<div align="center">
+		<div>
+		<div class="container">
+			<img src="picasso.jpg" alt="avatar" class="image">
+			<a href="artistsu\artistsu.html">
+		<div class="overlay overlayFade">
+		<div class="text">I'm an artist!</div>
+		</div>
+		</div>
+	</a>
+		<div class="container">
+			<img src="shop.png" alt="avatar" class="image">
+			<a href="shopsu\shopsu.html">
+		<div class="overlay overlayFade">
+		<div class="text">I represent a shop!</div>
+		</div>
+		</div>
+	</a>
+		<div class="container">
+			<img src="user.png" alt="avatar" class="image">
+			<a href="usersu\usersu.html">
+		<div class="overlay overlayFade">
+		<div class="text">I'm a user!</div>
+		</div>
+		</div>
+	</a>
+	</div>
+
+</div>
+<footer>
+<ul class="footernav" >
+	<li><a href="..\..\contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="facebook.png" href="www.facebook.com" >
+<img src="instagram.png" href="www.instagram.com" >
+<img src="twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+</html>

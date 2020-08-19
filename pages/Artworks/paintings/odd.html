@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../../../Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="../girl.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="..\..\..\NavButtons\Login\Login.html">LOGIN</a>
+		<a id="links" href="..\..\..\NavButtons\Login\Signup\signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\..\..\Images\logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<li><a href="..\..\..\NavButtons\Home.html">HOME</a></li>
+			<li><a href="..\..\..\NavButtons\artworks.html">ARTWORKS</a></li>
+			<li><a href="..\..\..\NavButtons\artists.html">ARTISTS</a></li>
+			<li><a href="..\..\..\NavButtons\exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="..\..\..\NavButtons\shops.html">SHOPS</a></li>
+			<li><a href="..\..\..\NavButtons\about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+<center>
+<div class="content">
+<div class="picture">
+<img src="..\..\..\Images\davinci\odd.jpg">
+</div>
+<div class="disc">
+<div class="disp">
+<p>Name: <b>DR. ODD</b></p>
+<p>Artist: <a href="..\..\artists\painters\davinci.html"><b>Leonardo da vinci</b></a></p>
+<p>Discription:  Girl Before A Mirror was painted in March 1932. It was produced in the style Picasso was using at the time and evoked an image of Vanity such as had been utilized in art in earlier eras, though Picasso shifts the emphasis and creates a very different view of the image. The work is considered in terms of the erotic in Picasso's art, and critics in different periods have offered their assessments of the work to show a wide range of reactions.<a href="https://www.pablopicasso.org/girl-before-mirror.jsp">read more.</a></p>
+<p>Dimensions:64 x 51 1/4" (162.3 x 130.2 cm)</p>
+<p>Price: £59million</p>
+</div>
+<button href="">BID NOW</button>
+</div>
+</div>
+</center>
+<footer>
+<ul class="footernav" >
+<li><a href="..\..\..\NavButtons\contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="Images\facebook.png" href="www.facebook.com" >
+<img src="Images\instagram.png" href="www.instagram.com" >
+<img src="Images\twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+</body>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+</html>

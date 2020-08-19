@@ -1,0 +1,70 @@
+
+.picture
+{
+	border-style:solid;
+	float:left;
+	display:inline;
+	width:40%;
+	border-width:1.5px;
+	height:500px;
+	margin-top:20px;
+	margin-left:5%;
+	margin-right:5%;
+	position:relative;
+}
+.content{
+	height:750px;
+}
+.picture img
+{
+	width:100%;
+	height:100%;
+	object-fit: fill;
+	
+}
+.disc
+{
+	position:relative;
+	display:inline;
+	top:20px;
+	width:40%;
+	left:0%;
+	right:5%;
+}
+button
+{
+	cursor:pointer;
+	position:relative;
+	top:50px;
+	font-family:"Raleway",sans-serif;
+	margin-bottom:30px;
+	height:40px;
+	width:80px;
+	background-color:white;
+	border-color:black;
+	border-width:1.5px;
+}
+button a{
+	text-decoration:none;
+	color:black;
+}
+button:hover
+{
+	background-color:black;
+	color:white;
+}
+.disp
+{
+	padding:5px;
+}
+
+.disc p
+{
+	line-height:20px;
+	text-align:left;
+	padding:3px;
+}
+footer
+{
+	top:750px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../../../Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="../Picasso.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="..\..\..\NavButtons\Login\Login.html">LOGIN</a>
+		<a id="links" href="..\..\..\NavButtons\Login\Signup\signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\..\..\Images\logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<li><a href="..\..\..\NavButtons\Home.html">HOME</a></li>
+			<li><a href="..\..\..\NavButtons\artworks.html">ARTWORKS</a></li>
+			<li><a href="..\..\..\NavButtons\artists.html">ARTISTS</a></li>
+			<li><a href="..\..\..\NavButtons\exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="..\..\..\NavButtons\shops.html">SHOPS</a></li>
+			<li><a href="..\..\..\NavButtons\about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+<center>
+<div class="content">
+<div id="Bio">
+<img src="..\..\..\Images\picasso\picasso.jpg" id="profile_pic" alt="">   
+        <h2 id="user">PABLO PICASSO</h2>
+		
+    <h2><p id="Headings">Bio</p></h2>
+    <p id="discp">Pablo Ruiz Picasso was a Spanish painter, sculptor, printmaker, ceramicist, stage designer, poet and playwright who spent most of his adult life in France. Regarded as one of the most influential artists of the 20th century, he is known for co-founding the Cubist movement, the invention of constructed sculpture, the co-invention of collage, and for the wide variety of styles that he helped develop and explore. Among his most famous works are the proto-Cubist Les Demoiselles d'Avignon (1907), and Guernica (1937), a dramatic portrayal of the bombing of Guernica by the German and Italian airforces.
+	</p>
+    <h2><p id="Headings">Artworks</p></h2>
+    <div class="container">
+        <img  src="..\..\..\Images\picasso\avignon.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\avignon.html">
+		        <div class="text">
+			    Les Demoiselles d'Avignon
+			    </div>
+		    </a>
+        </div>
+    </div>
+    <div class="container">
+        <img  src="..\..\..\Images\picasso\girl.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\girl.html">
+		        <div class="text">
+			    The girl in the mirror
+			    </div>
+		    </a>
+        </div>
+    </div>
+    <div class="container">
+        <img  src="..\..\..\Images\picasso\guernica.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\guernica.html">
+			    <div class="text">
+				Guernica
+				</div>
+			</a>
+        </div>
+    </div>
+    <div class="container">
+        <img  src="..\..\..\Images\picasso\weeping.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\weeping.html"> 
+		        <div class="text">
+			    The Weeping Woman
+                </div>
+			</a>
+        </div>
+	</div>
+<h3><p id="Headings">Contact</p></h3>
+<p id="discp">Unfortunately, he's dead.</p>
+</div>
+</center>
+<footer>
+<ul class="footernav" >
+<li><a href="..\..\..\NavButtons\contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="..\..\..\Images\facebook.png" href="www.facebook.com" >
+<img src="..\..\..\Images\instagram.png" href="www.instagram.com" >
+<img src="..\..\..\Images\twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+</body>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+</html>

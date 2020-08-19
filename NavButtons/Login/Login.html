@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="login.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="login.html">LOGIN</a>
+		<a id="links" href="Signup\signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\..\Images\logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<li><a href="..\Home.html">HOME</a></li>
+			<li><a href="..\artworks.html">ARTWORKS</a></li>
+			<li><a href="..\artists.html">ARTISTS</a></li>
+			<li><a href="..\exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="..\shops.html">SHOPS</a></li>
+			<li><a href="..\about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+<body>
+	<div class="c">
+<form action="log.php" name="just" method="post">
+<div class="login-form" method="post">
+<h2>login now</h2>
+<input type="email" name="email" placeholder="enter your email" required="">
+<input type="password" name="pass" placeholder="enter your password" required="">
+<input type="submit" value="login">
+
+		
+<div class="login-password">
+<span><a href="Signup\signup.html">New to Artista?</a></span>
+</div>
+</div>
+</form>
+			
+<footer>
+<ul class="footernav" >
+	<li><a href="..\contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="facebook.png" href="www.facebook.com" >
+<img src="instagram.png" href="www.instagram.com" >
+<img src="twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+</div>
+</body>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+</html>

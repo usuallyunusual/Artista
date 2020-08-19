@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="..\Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="arts-paintings.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="Login\Login.html">LOGIN</a>
+		<a id="links" href="Login\Signup\signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\Images\logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<li><a href="Home.html">HOME</a></li>
+			<li><a href="artworks.html">ARTWORKS</a></li>
+			<li><a href="artists.html">ARTISTS</a></li>
+			<li><a href="exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="shops.html">SHOPS</a></li>
+			<li><a href="about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+
+
+<div class="mainpage">
+<center>
+	<div id="snav" class="sidenav">
+  <a href="artworks.html" id="paintings">Paintings</a>
+  <a href="photos.html" id="photographs">Photos</a>
+  <a href="sculptures.html" id="sculptures">Sculptures</a>
+</div>
+<div class="content">
+<h2>SCULPTURES</h2>
+<hr noshade/>
+<div class="container">
+<img  src="..\Images\artworks\sculptures\s1.jpg" alt="img" class="image">
+<div class="overlay overlayFade">
+<a href=""><div class="text2">The diskobolos
+</div></a>
+</div>
+</div>
+<div class="container">
+<img  src="..\Images\artworks\sculptures\s2.jpg" alt="img" class="image">
+<div class="overlay overlayFade">
+<a href="girl.html"><div class="text2">Venus De-Milo
+</div></a>
+</div>
+</div>
+<div class="container">
+<img  src="..\Images\artworks\sculptures\s3.jpg" alt="img" class="image">
+<div class="overlay overlayFade">
+<a href=""><div class="text2"> Sotheby's
+</div></a>
+</div>
+</div>
+<div class="container">
+	<img  src="..\Images\artworks\sculptures\s4.jpg" alt="img" class="image">
+	<div class="overlay overlayFade">
+		<a href=""><div class="text2"> MR.DOB
+		</div></a>
+</div>
+</div>
+<br>
+<div class="container">
+	<img src="..\Images\artworks\sculptures\s5.jpg" alt="img" class="image">
+	<div class="overlay overlayFade">
+		<div class="text2">Man who bears the cross</div>
+	</div>
+</div>
+<div class="container">
+	<img src="..\Images\artworks\sculptures\s6.jpg" alt="img" class="image">
+    <div class="overlay overlayFade">
+	<div class="text2">The cube </div>
+	</div>
+</div>	
+<div class="container">
+	<img src="..\Images\artworks\sculptures\s7.jpg" alt="img" class="image">
+	<div class="overlay overlayFade">
+		<div class="text2"> 17P</div>
+    </div>
+</div>
+<div class="container">
+	<img src="..\Images\artworks\sculptures\s8.jpg" alt="img" class="image">
+	<div class="overlay overlayFade">
+		<div class="text2">Square No</div>
+	</div>
+</div>
+
+</div>
+</center>
+</div>
+</body>
+<footer>
+<ul class="footernav" >
+<li><a href="contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="..\Images\facebook.png" href="www.facebook.com" >
+<img src="..\Images\instagram.png" href="www.instagram.com" >
+<img src="..\Images\twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+
+</html>

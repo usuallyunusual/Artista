@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../../../Defaulttemplate.css" rel="stylesheet" type="text/css">
+<link href="../Picasso.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+	<div id="header1">
+		<a id ="links" href="..\..\..\NavButtons\Login\Login.html">LOGIN</a>
+		<a id="links" href="..\..\..\NavButtons\Login\Signup\signup.html">SIGNUP</a>
+	</div>
+	<div id="header2">
+		<div class="logo">
+			<img src="..\..\..\Images\logo.jpg"/>
+		</div>
+		<div class="main-nav"><ul>
+			<li><a href="..\..\..\NavButtons\Home.html">HOME</a></li>
+			<li><a href="..\..\..\NavButtons\artworks.html">ARTWORKS</a></li>
+			<li><a href="..\..\..\NavButtons\artists.html">ARTISTS</a></li>
+			<li><a href="..\..\..\NavButtons\exhibitions.html">EXHIBITIONS</a></li>
+			<li><a href="..\..\..\NavButtons\shops.html">SHOPS</a></li>
+			<li><a href="..\..\..\NavButtons\about.html">ABOUT</a></li> 
+		</ul>
+		</div>
+	</div>
+</div>
+<center>
+<div class="content">
+<div id="Bio">
+<img src="..\..\..\Images\davinci\davinci.jpg" id="profile_pic" alt="">   
+        <h2 id="user">LEONARDO DA VINCI</h2>
+    <h2><p id="Headings">Bio</p></h2>
+    <p id="discp">Leonardo di ser Piero da Vinci ( 15 April 1452 – 2 May 1519), more commonly Leonardo da Vinci or simply Leonardo, was an Italian polymath of the Renaissance, whose areas of interest included invention, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography. He has been variously called the father of palaeontology, ichnology, and architecture, and is widely considered one of the greatest painters of all time. Sometimes credited with the inventions of the parachute, helicopter and tank, he epitomised the Renaissance humanist ideal.
+	</p>
+    <h2><p id="Headings">Artworks</p></h2>
+    <div class="container">
+        <img  src="..\..\..\Images\davinci\mona.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\monalisa.html">
+		        <div class="text">
+			    Mona Lisa
+			    </div>
+		    </a>
+        </div>
+    </div>
+    <div class="container">
+        <img  src="..\..\..\Images\davinci\madonna.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\madonna.html">
+		        <div class="text">
+			    Madonna in the woods
+			    </div>
+		    </a>
+        </div>
+    </div>
+    <div class="container">
+        <img  src="..\..\..\Images\davinci\forgotten.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\forgotten.html">
+			    <div class="text">
+				The Forgotten Rivalry
+				</div>
+			</a>
+        </div>
+    </div>
+    <div class="container">
+        <img  src="..\..\..\Images\davinci\odd.jpg" alt="img" class="image">
+        <div class="overlay overlayFade">
+            <a href="..\..\Artworks\paintings\odd.html"> 
+		        <div class="text">
+			    Dr. Odd
+                </div>
+			</a>
+        </div>
+	</div>
+<h2><p id="Headings">Contact</p></h2>
+<p id="discp">Unfortunately, he's dead.</p>
+</div>
+</div>
+</div>
+</center>
+<footer>
+<ul class="footernav" >
+<li><a href="..\..\..\NavButtons\contactus.html">CONTACT US</a></li>
+<li><a href="https://www.artsy.net/terms">TERMS OF USE</a></li>
+<li><a href="https://www.artsy.net/privacy">PRIVATE POLICY</a></li>
+<li><a href="https://www.artsy.net/security">SECURITY</a></li>
+</ul>
+<div class="icon">
+<img src="..\..\..\Images\facebook.png" href="www.facebook.com" >
+<img src="..\..\..\Images\instagram.png" href="www.instagram.com" >
+<img src="..\..\..\Images\twitter.png" href="www.twitter.com" >
+</div>
+</footer>
+</body>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-30px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+</html>
